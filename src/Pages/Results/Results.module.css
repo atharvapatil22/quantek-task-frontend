@@ -1,0 +1,53 @@
+.wrapper {
+  min-height: 100vh;
+  padding: 1em 7%;
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.header h1 {
+  font-size: 3em;
+  width: 100%;
+}
+
+.header button {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 0;
+  background-color: gold;
+  border: 2px solid black;
+  cursor: pointer;
+  transform: all 0.3s;
+  white-space: nowrap;
+}
+
+.header button:hover {
+  color: gold;
+  background-color: black;
+}
+
+.message {
+  font-size: 1.5em;
+  color: red;
+  margin-top: 3em;
+}
+
+.card_container {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  display: flex;
+  margin-top: 4em;
+}
