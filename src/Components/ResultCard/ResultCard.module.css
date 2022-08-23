@@ -1,0 +1,13 @@
+.wrapper {
+  min-width: 70%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.render_element {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: lightgray;
+  border-bottom: 2px solid grey;
+  padding: 1em;
+}
