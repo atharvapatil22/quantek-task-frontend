@@ -9,5 +9,9 @@
   border-top-right-radius: 10px;
   background-color: lightgray;
   border-bottom: 2px solid grey;
-  padding: 1em;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
